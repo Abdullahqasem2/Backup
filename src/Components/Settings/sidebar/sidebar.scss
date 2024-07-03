@@ -1,0 +1,39 @@
+.sidebar {
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+
+}
+
+.list {
+    padding: 0;
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.list-item-right {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 4px;
+    color: black;
+}
+
+.text {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    word-wrap: break-word;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}

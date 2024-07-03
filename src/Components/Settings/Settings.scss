@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 90vh;
+    width: 95vw;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.spacer {
+    width: 100%;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 2px;
+
+}
+
+.map {
+    width: 100%;
+    flex: 1;
+}
+
+.icon-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 10px;
+}
+
+.cars-component {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .main-content {
+        flex-direction: row;
+    }
+
+    .cars-component, .map, .icon-button-container {
+        width: 22vw;
+    }
+
+    .icon-button-container {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .icon-button-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .cars-component {
+        width: 100%;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.your-element::-webkit-scrollbar {
+    display: none;
+}

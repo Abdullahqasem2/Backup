@@ -1,0 +1,26 @@
+body {
+    background-image: url("../../../public/Assets/web1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    position: relative; 
+    height: 100%;
+    width: 23%;
+    margin-left: 57%;
+}
+
+.formLabel {
+    display: flex;
+    justify-content: center;
+    color: white;
+}

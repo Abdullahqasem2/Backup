@@ -1,0 +1,24 @@
+.left-panel {
+    width: 22vw;
+    height: calc(92vh - 9vh);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+.group-label {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 90%;
+}
+
+.search {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
